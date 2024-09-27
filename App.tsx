@@ -11,6 +11,7 @@ export default function App() {
       <Text>Nguyen Quoc Chung</Text>
       <Text>Nguyen Quoc Chung</Text>
       <Text>Nguyen Quoc Chung</Text>
+      <Text>Nguyen Quoc Chung</Text>
       <Text>Luu Quang Minh</Text>
       <StatusBar style="auto" />
       <Text> Phan Hoang Minh Phuoc</Text>
