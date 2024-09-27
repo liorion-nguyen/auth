@@ -14,6 +14,7 @@ export default function App() {
       <Text>Luu Quang Minh</Text>
       <StatusBar style="auto" />
       <Text> Phan Hoang Minh Phuoc</Text>
+      <Text>Hello</Text>
     </View>
   );
 }
