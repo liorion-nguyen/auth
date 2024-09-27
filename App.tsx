@@ -8,6 +8,7 @@ export default function App() {
       <Text>Open up App.tsx to start working on your app!</Text>
       <Text>Open up App.tsx to start working on your app!</Text>
       <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Nguyen Quoc Chung</Text>
       <Text>Luu Quang Minh</Text>
       <StatusBar style="auto" />
       <Text> Phan Hoang Minh Phuoc</Text>
