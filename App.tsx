@@ -18,6 +18,7 @@ export default function App() {
       <Text>Hello</Text> 
       <Text> Phuoc</Text>
       <Text>Hello</Text>
+      <Text> Tran Thien An</Text>
     </View>
   );
 }
