@@ -20,6 +20,7 @@ export default function App() {
       <Text>Hello</Text>
       <Text> Tran Thien An</Text>
       <Text> Thien An BH</Text>
+      <Text> TA_BH</Text>
     </View>
   );
 }
