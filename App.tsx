@@ -1,21 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <Text>Nguyen Quoc Chung</Text>
-      <Text>Nguyen Quoc Chung</Text>
-      <Text>Nguyen Quoc Chung</Text>
-      <Text>Nguyen Quoc Chung</Text>
-      <Text>Luu Quang Minh</Text>
-      <StatusBar style="auto" />
-      <Text> Phan Hoang Minh Phuoc</Text>
-      <Text>Hello</Text>
+      <Text style ={styles.word}>Reset Your Password</Text>
+      <Text style={styles.words}>We will send an email to reset your password</Text>
+      <TouchableOpacity style={styles.email}>
+        <Text style={{fontSize:17, fontWeight:'bold'}}>Email</Text>
+      </TouchableOpacity>
+      <TextInput placeholder='Enter your email' style={styles.enter}/>
+      <TouchableOpacity>
+        <Text style={styles.emailmeword}>Email me</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -27,4 +24,35 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  word: {
+    fontSize:25,
+    fontWeight:'bold'
+  },
+  words: {
+    marginTop:10,
+    fontSize:13
+  },
+  email: {
+    marginTop:30,
+    marginRight:220,
+    
+  },
+  enter:{
+    margin:20,
+    paddingHorizontal:80,
+    paddingVertical:10,
+    borderWidth:2,
+    borderColor:'orange',
+    borderRadius:14,
+
+  },
+
+  emailmeword:{
+backgroundColor:'orange',
+paddingHorizontal:105,
+paddingVertical:10,
+color:'white'
+
+  
+  }
 });
